@@ -1,5 +1,5 @@
 {
-  "name": "Amaresh",
+  "name": "Simpletheme",
   "component": false,
   "license_url": null,
   "about_url": "https://github.com/AmareshMuddebihal/Simpletheme.git",
@@ -27,4 +27,5 @@
     }
   },
   "modifiers": {}
+  
 }
