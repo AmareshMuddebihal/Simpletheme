@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url($playfair-display-regular);
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url($playfair-display-semibold);
+  font-weight: bold;
+}
+
+@mixin badge($color) {
+  color: $color;
+  background: linear-gradient(149deg, $color, lighten($color, 40), $color);
+  border-color: darken($color, 10);
+  .fa {
+    color: darken($color, 10) !important;
+  }
+}
+
+@function get_invert($invert) {
+  @if $invert == "true" {
+    @return 1;
+  }
+  @return 0;
+}
+
+@function get_brightness($amount) {
+  @return unquote($amount);
+}
+
+%btn--big {
+  padding: 1rem 2rem;
+}
+
+:root {
+  --main-background: var(--quaternary);
+  --light-accent: var(--quaternary);
+  --heading-font-family: "Playfair Display", serif;
+}
+
+$font-size-large: 3rem;
