@@ -4,7 +4,7 @@
   "license_url": null,
   "about_url": "https://github.com/AmareshMuddebihal/Simpletheme.git",
   "authors": "Amaresh Muddebihal - https://amareshmuddebihal.wordpress.com/",
-  "theme_version": 2.0,
+  "theme_version": 1.0,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
@@ -12,11 +12,11 @@
     "playfair-display-semibold": "assets/PlayfairDisplay-SemiBold.ttf"
   },
   "color_schemes": {
-    "Zeronoise": {
+    "Simpletheme": {
       "header_background": "003300",
       "header_primary": "ccffff", // It's the text and icons color in the header
-      "highlight": "003300", // Applies to the title of the list of Time Periods in the "Top" tab of the main menu.
-      "danger": "e60000",
+      "highlight": "003300", // Applies to the title of the list of Time Periods in the Top tab of the main menu
+       "danger" : "e60000",
       "success": "8080ff",
       "love": "1a8cff",
       "primary": "0000cc", // Applies as solid color to Post Titles and to other text as a tint
